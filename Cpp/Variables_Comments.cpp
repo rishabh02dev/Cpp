@@ -12,4 +12,4 @@ int main(){
     int sum = 25;
     cout<<sum << endl;
     return 0;
-}
+} 
