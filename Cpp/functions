@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+//function prototype
+//type function-name (arguements);
+//int sum (int a , int b);// acceptable;
+//int sum (int , int ); //acceptable;
+int sum(int a , int b);
+void g();
+int main(){
+    int num1, num2;
+    cout<<"Enter first number"<<endl;
+    cin>>num1;
+    cout<<"Enter second number"<<endl;
+    cin>>num2;
+    cout<<"The sum is "<<sum(num1 , num2);
+    // num1 and num2 are actual parameters;;
+
+    return 0;}
+    int sum(int a , int b){
+    int c = a +b;
+    //a and b ae formal parameters;;
+    return c;
+} void g(){
+    cout<<"hello jee, good morning"<<endl;
+}
+//formal and actual parameter names can be same.
