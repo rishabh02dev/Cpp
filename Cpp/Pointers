@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    //what is a pointer ? ---> daata type whih holds the adddress of other data types
+
+    int a = 5;
+    int* b = &a;
+    //& ---> (address of ) operator
+    cout<<"the address of a is "<<&a<<endl;
+    cout<<"the adddress of a is "<<b<<endl;
+    
+
+     //  * ---- > Deference operator
+    cout<<"the value at b is equal to " << *b<<endl;
+    
+
+    //pointer to pointer in order to sowcase the value of particular variable
+    int**c = &b;
+    cout<<"the address of b is "<<&b<<endl;
+    cout<<"the address of b id "<<c<<endl;
+
+    cout<<"the value at address c is equal to "<<*c<<endl;
+    cout<<"the value at address (c) is "<<**c<<endl;
+    int***d = &c;
+    cout<<"the address of c is "<<d<<endl;
+
+    return 0;
+}
