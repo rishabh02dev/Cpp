@@ -25,7 +25,7 @@ int main()
     cout<<y<<endl;
 
     //typecasting
-
+ 
     int a = 45;
     float b = 45.46;
     cout<<"the value of a is "<<(float)a;
