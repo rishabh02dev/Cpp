@@ -1,0 +1,64 @@
+#include <iostream>
+using namespace std;
+typedef struct employee
+{
+    /* data */
+    int eId;
+    char favchar;
+    float salary;
+} ep;
+union money;
+{
+    int rice;
+    char car;
+    float pounds;
+}
+
+int
+main(){
+
+    enum meal { breakfast, lunch , dinner};
+    meal m1 = breakfast;
+    cout<<(m1 ==1);
+    cout<<breakfast;
+    cout<<lunch;
+    cout<<dinner;
+
+    return 0;
+}
+
+// {
+
+//     // creating union
+//     ep harry;
+//     union money m1;
+//     m1.rice = 34;
+//     m1.car = 'c';
+//     cout << m1.car;
+//     return 0;
+// }
+
+// //using structures mainly they are used when we have to make of different data types
+// ep harry;
+// struct employee shubham;
+// struct employee rishabh;
+// struct employee vaibhav;
+
+// rishabh.eId = 102;
+// rishabh.favchar = 'r';
+// rishabh.salary = 1200000;
+
+// shubham.eId = 110;
+// shubham.favchar = 's';
+// shubham.salary = 50000;
+
+// cout<<"the value is "<<rishabh.eId<<endl;
+// cout<<"the value is "<<rishabh.favchar<<endl;
+// cout<<"the value is "<<rishabh.salary<<endl;
+
+// cout<<"the value is "<<shubham.eId<<endl;
+// cout<<"the value is "<<shubham.favchar<<endl;
+// cout<<"the value is "<<shubham.salary<<endl;
+
+// //union provides better money allocation
+
