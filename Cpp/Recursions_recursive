@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+//as factorial n = n*(n-1)! 
+int fib(int n){
+    if(n<2){
+        return 1;
+    }
+    return fib(n-2) + fib(n-1);
+}
+
+int factorial (int n){
+    if(n<=1){
+        return 1;
+    }
+    return n* (n-1);
+
+    //creating fibonacci series using recusrion;
+
+}
+int main(){
+    int a, b;
+    cout<<"enter the value you need to find out"<<endl;
+    cin>>a;
+    cout<<"the value of factorial of the given number is " << factorial(a)<<endl;
+    cout<<"the value of the position on which you need to find the fib "<<endl;
+    cin>>b;
+    cout<<"the value of fib at this position"<< b <<" is "<< fib(b) <<endl;
+
+    return (0);
+}
