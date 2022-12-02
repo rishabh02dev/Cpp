@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace stdl;
+int main(){
+
+
+//classes and ibjects'
+//data abstraction and encaplsulation
+//data inheritance
+// Polymorphism
+// dynamic binding
+// message passing
+    return (0);
+}
